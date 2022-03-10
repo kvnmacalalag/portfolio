@@ -1,0 +1,15 @@
+C:\Users\Kevin.Macalalag\Documents\Projects\portfolio\src\Core\Application\bin\Debug\net5.0\Portfolio.Application.deps.json
+C:\Users\Kevin.Macalalag\Documents\Projects\portfolio\src\Core\Application\bin\Debug\net5.0\Portfolio.Application.dll
+C:\Users\Kevin.Macalalag\Documents\Projects\portfolio\src\Core\Application\bin\Debug\net5.0\ref\Portfolio.Application.dll
+C:\Users\Kevin.Macalalag\Documents\Projects\portfolio\src\Core\Application\bin\Debug\net5.0\Portfolio.Application.pdb
+C:\Users\Kevin.Macalalag\Documents\Projects\portfolio\src\Core\Application\bin\Debug\net5.0\Portfolio.Domain.dll
+C:\Users\Kevin.Macalalag\Documents\Projects\portfolio\src\Core\Application\bin\Debug\net5.0\Portfolio.Domain.pdb
+C:\Users\Kevin.Macalalag\Documents\Projects\portfolio\src\Core\Application\obj\Debug\net5.0\Portfolio.Application.csprojAssemblyReference.cache
+C:\Users\Kevin.Macalalag\Documents\Projects\portfolio\src\Core\Application\obj\Debug\net5.0\Portfolio.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kevin.Macalalag\Documents\Projects\portfolio\src\Core\Application\obj\Debug\net5.0\Portfolio.Application.AssemblyInfoInputs.cache
+C:\Users\Kevin.Macalalag\Documents\Projects\portfolio\src\Core\Application\obj\Debug\net5.0\Portfolio.Application.AssemblyInfo.cs
+C:\Users\Kevin.Macalalag\Documents\Projects\portfolio\src\Core\Application\obj\Debug\net5.0\Portfolio.Application.csproj.CoreCompileInputs.cache
+C:\Users\Kevin.Macalalag\Documents\Projects\portfolio\src\Core\Application\obj\Debug\net5.0\Portfolio.Application.csproj.CopyComplete
+C:\Users\Kevin.Macalalag\Documents\Projects\portfolio\src\Core\Application\obj\Debug\net5.0\Portfolio.Application.dll
+C:\Users\Kevin.Macalalag\Documents\Projects\portfolio\src\Core\Application\obj\Debug\net5.0\ref\Portfolio.Application.dll
+C:\Users\Kevin.Macalalag\Documents\Projects\portfolio\src\Core\Application\obj\Debug\net5.0\Portfolio.Application.pdb
