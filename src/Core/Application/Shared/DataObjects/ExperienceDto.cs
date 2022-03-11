@@ -14,7 +14,6 @@ namespace Portfolio.Application.Shared.DataObjects
         public DateTime Start { get; set; }
         public DateTime? End { get; set; }
         public bool IsPresent { get; set; }
-        public int? ProfileId { get; set; }
-        public MyProfileDto MyProfile { get; set; }
+        public int? MyProfileId { get; set; }
     }
 }

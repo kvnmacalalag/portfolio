@@ -15,7 +15,10 @@ namespace Portfolio.Application.Common.Models
         public BaseResponse(TModel model, Dictionary<string, string[]> validationErrors = null)
         {
             Data = model;
-
+            if (validationErrors != null)
+            {
+                Errors = validationErrors;
+            }
         }
     }
 

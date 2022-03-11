@@ -9,7 +9,6 @@ namespace Portfolio.Domain.Entities
         public string Name { get; set; }
         public string Description { get; set; }
         public Level Level { get; set; }
-
         public int? MyProfileId { get; set; }
         public MyProfile MyProfile { get; set; }
     }

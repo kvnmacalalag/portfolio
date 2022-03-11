@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Portfolio.Application.Common.Models
 {
-    class Result
+    public class Result
     {
         public bool Succeeded { get; set; }
         public string[] Errors { get; set; }
