@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6MFs+HC0+VxAIiX5ua0OS6cuGDyOvP7YmPFkeco/2Chq7FcLWxhG3kjcnKkecR5h44Sqd1FL8yiibgVAARB3CQ==",
+  "dgSpecHash": "uUDxgu06LiF8TBkgVNuwPSRT6D0n2QYafF05jp87/bB2NMKnC/Ss5n1mxQOBlivq2YFkapnIDbVJhuWoZqzd2g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Kevin.Macalalag\\Documents\\Projects\\portfolio\\src\\Core\\Domain\\Portfolio.Domain.csproj",
+  "projectFilePath": "C:\\Users\\Kevin Macalalag\\Git\\portfolio\\src\\Core\\Domain\\Portfolio.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -31,7 +31,6 @@ namespace ProfileService.Core.Profiles.Queries
         {
             var queries = _context.MyProfiles
                 .Include(p => p.Contact)
-                .AsSingleQuery()
                 .OrderByDescending(p => p.Created)
                 .AsNoTracking();
 

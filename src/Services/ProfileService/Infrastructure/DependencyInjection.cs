@@ -13,7 +13,7 @@ namespace Portfolio.ProfileService.Infrastructure
 
         public static IServiceCollection AddInfrastructure(this IServiceCollection services, IConfiguration configuration)
         {
-            // Configuration.AuditDisabled = true;
+            Configuration.AuditDisabled = true;
             // Configuration.Setup().UseEntityFramework(_ =>
             //     _.AuditEntityCreator);
             services.AddDbContext<ApplicationDbContext>(options =>

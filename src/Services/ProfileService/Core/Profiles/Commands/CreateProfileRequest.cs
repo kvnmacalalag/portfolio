@@ -12,7 +12,7 @@ namespace ProfileService.Core.Profiles.Commands
     public class CreateProfileRequest :
         IRequest<BaseResponse<CreateRecordResponse<int>>>
     {
-        public MyProfileVm Profile { get; set; }
+        public MyProfileVm MyProfile { get; set; }
     }
 
     public class CreateProfileRequestHandler :
@@ -29,7 +29,7 @@ namespace ProfileService.Core.Profiles.Commands
 
         public async Task<BaseResponse<CreateRecordResponse<int>>> Handle(CreateProfileRequest request, CancellationToken cancellationToken)
         {
-            var entity = _mapper.Map<MyProfile>(request.Profile);
+            var entity = _mapper.Map<MyProfile>(request.MyProfile);
 
             await _context.AddAsync(entity, cancellationToken);
             await _context.SaveChangesAsync(cancellationToken);

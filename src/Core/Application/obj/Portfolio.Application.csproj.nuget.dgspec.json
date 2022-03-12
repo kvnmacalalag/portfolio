@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Kevin.Macalalag\\Documents\\Projects\\portfolio\\src\\Core\\Application\\Portfolio.Application.csproj": {}
+    "C:\\Users\\Kevin Macalalag\\Git\\portfolio\\src\\Core\\Application\\Portfolio.Application.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Kevin.Macalalag\\Documents\\Projects\\portfolio\\src\\Core\\Application\\Portfolio.Application.csproj": {
+    "C:\\Users\\Kevin Macalalag\\Git\\portfolio\\src\\Core\\Application\\Portfolio.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Kevin.Macalalag\\Documents\\Projects\\portfolio\\src\\Core\\Application\\Portfolio.Application.csproj",
+        "projectUniqueName": "C:\\Users\\Kevin Macalalag\\Git\\portfolio\\src\\Core\\Application\\Portfolio.Application.csproj",
         "projectName": "Portfolio.Application",
-        "projectPath": "C:\\Users\\Kevin.Macalalag\\Documents\\Projects\\portfolio\\src\\Core\\Application\\Portfolio.Application.csproj",
-        "packagesPath": "C:\\Users\\Kevin.Macalalag\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Kevin.Macalalag\\Documents\\Projects\\portfolio\\src\\Core\\Application\\obj\\",
+        "projectPath": "C:\\Users\\Kevin Macalalag\\Git\\portfolio\\src\\Core\\Application\\Portfolio.Application.csproj",
+        "packagesPath": "C:\\Users\\Kevin Macalalag\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Kevin Macalalag\\Git\\portfolio\\src\\Core\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Kevin.Macalalag\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Kevin Macalalag\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +28,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\Kevin.Macalalag\\Documents\\Projects\\portfolio\\src\\Core\\Domain\\Portfolio.Domain.csproj": {
-                "projectPath": "C:\\Users\\Kevin.Macalalag\\Documents\\Projects\\portfolio\\src\\Core\\Domain\\Portfolio.Domain.csproj"
+              "C:\\Users\\Kevin Macalalag\\Git\\portfolio\\src\\Core\\Domain\\Portfolio.Domain.csproj": {
+                "projectPath": "C:\\Users\\Kevin Macalalag\\Git\\portfolio\\src\\Core\\Domain\\Portfolio.Domain.csproj"
               }
             }
           }
@@ -76,21 +76,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.212\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.405\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Kevin.Macalalag\\Documents\\Projects\\portfolio\\src\\Core\\Domain\\Portfolio.Domain.csproj": {
+    "C:\\Users\\Kevin Macalalag\\Git\\portfolio\\src\\Core\\Domain\\Portfolio.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Kevin.Macalalag\\Documents\\Projects\\portfolio\\src\\Core\\Domain\\Portfolio.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Kevin Macalalag\\Git\\portfolio\\src\\Core\\Domain\\Portfolio.Domain.csproj",
         "projectName": "Portfolio.Domain",
-        "projectPath": "C:\\Users\\Kevin.Macalalag\\Documents\\Projects\\portfolio\\src\\Core\\Domain\\Portfolio.Domain.csproj",
-        "packagesPath": "C:\\Users\\Kevin.Macalalag\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Kevin.Macalalag\\Documents\\Projects\\portfolio\\src\\Core\\Domain\\obj\\",
+        "projectPath": "C:\\Users\\Kevin Macalalag\\Git\\portfolio\\src\\Core\\Domain\\Portfolio.Domain.csproj",
+        "packagesPath": "C:\\Users\\Kevin Macalalag\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Kevin Macalalag\\Git\\portfolio\\src\\Core\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Kevin.Macalalag\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Kevin Macalalag\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -130,7 +130,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.212\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.405\\RuntimeIdentifierGraph.json"
         }
       }
     }

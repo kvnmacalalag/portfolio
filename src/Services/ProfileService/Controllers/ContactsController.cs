@@ -17,6 +17,11 @@ namespace Portfolio.ProfileService.Controllers
         public async Task<IActionResult> CreateAsync([FromBody] CreateContactRequest request)
             => request.Contact == null ? BadRequest() : Result(await Mediator.Send(request));
 
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> DeleteAsync(int id)
+            => id == 0 ? BadRequest() :
+                Result(await Mediator.Send(new DeleteContactRequest { Id = id }));
+
         [HttpPut("{id}")]
         public async Task<IActionResult> PatchAsync(int id, [FromBody] UpdateContactRequest request)
         {
@@ -29,9 +34,5 @@ namespace Portfolio.ProfileService.Controllers
                 new UpdateContactRequest { Id = id, Contact = request.Contact }));
         }
 
-        [HttpDelete("{id}")]
-        public async Task<IActionResult> DeleteAsync(int id)
-            => id == 0 ? BadRequest() : Result(await Mediator.Send(
-                new DeleteContactRequest { Id = id }));
     }
 }

@@ -15,7 +15,13 @@ namespace Portfolio.ProfileService.Controllers
 
         [HttpPost]
         public async Task<ActionResult> CreateAsync([FromBody] CreateExperienceRequest request)
-            => request.Experience == null ? BadRequest() : Result(await Mediator.Send(request));
+            => request.Experience == null ? BadRequest() :
+                Result(await Mediator.Send(request));
+
+        [HttpDelete("{id}")]
+        public async Task<ActionResult> DeleteAsync(int id)
+            => id == 0 ? BadRequest() :
+                Result(await Mediator.Send(new DeleteExperienceRequest { Id = id }));
 
         [HttpPut("{id}")]
         public async Task<ActionResult> UpdateAsync(int id, [FromBody] UpdateExperienceRequest request)
@@ -27,9 +33,5 @@ namespace Portfolio.ProfileService.Controllers
 
             return Result(await Mediator.Send(request));
         }
-        [HttpDelete("{id}")]
-        public async Task<ActionResult> DeleteAsync(int id)
-            => id == 0 ? BadRequest() : Result(await Mediator.Send(
-                new DeleteExperienceRequest { Id = id }));
     }
 }
